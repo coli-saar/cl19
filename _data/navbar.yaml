@@ -1,0 +1,15 @@
+navbar:
+  - section: General
+    entries:
+      - title: Index
+        url: index.html
+#      - title: Schedule
+#        url: schedule.html
+  - section: Resources
+    entries:
+      - title: Literature
+        url: literature.html
+      - title: Python
+        url: python.html
+  - section: Assignments
+    entries:

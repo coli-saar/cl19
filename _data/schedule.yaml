@@ -1,0 +1,475 @@
+lectures:
+  - date: 2018-10-16
+    title: (no class - introductory week)
+    type: noclass
+    slides: 
+    reading: 
+  - date: 2018-10-19
+    title: (no class - introductory week)
+    type: noclass
+    slides: 
+    reading: 
+  - date: 2018-10-23
+    title: Introduction
+    type: 
+    slides: lectures/01-introduction.pdf
+    reading: 
+  - date: 2018-10-26
+    title: Crash course in Python and NLTK
+    type: 
+    slides: 
+    reading: 
+    - author: NLTK
+      title: Install Python 3 and NLTK 3 and play around with it
+      url: http://www.nltk.org/
+    assignment:
+    - label: A1
+      link: assignments/cl-a1.pdf
+  - date: 2018-10-30
+    title: Generative statistical models; n-grams
+    type: 
+    slides: lectures/03-ngrams.pdf
+    reading: 
+    - author: Jurafsky &amp; Martin
+      title: Chapters 4.1-4.2
+    - author: Kevin Murphy
+      title: Binomial and multinomial distributions
+      url: http://www.cs.ubc.ca/~murphyk/Teaching/CS340-Fall06/reading/bernoulli.pdf
+      optional: true
+    - author: Jurafsky &amp; Martin (Smoothing)
+      title: Chapters 4.5-4.7
+      optional: true
+    - author: Manning &amp; Schütze (Smoothing)
+      title: Chapters 6.2-6.3
+      optional: true
+  - date: 2018-11-02
+    title: More Python
+    type: 
+    slides: 
+    reading: 
+  - date: 2018-11-06
+    title: POS tagging with HMMs
+    type: 
+    slides: lectures/04-hmms.pdf
+    reading: 
+    - author: Jurafsky &amp; Martin
+      title: Chapters 5.1-5.5, 6.1-6.4
+    assignment:
+    - label: A1 due;
+    - label: A2
+      link: assignments/cl-a2.pdf      
+  - date: 2018-11-09
+    title: HMM training
+    type: 
+    slides: lectures/05-hmm-training.pdf
+    reading: 
+    - author: Jurafsky &amp; Martin
+      title: Chapters 5.7-5.8, 6.5
+    - author: Jason Eisner
+      title: HMM-in-a-spreadsheet
+      url: http://www.cs.jhu.edu/~jason/465/PowerPoint/lect24-hmm.xls
+      optional: true
+  - date: 2018-11-13
+    title: Discussion of Assignment 1
+    type: discussion
+    slides: 
+    reading: 
+  - date: 2018-11-16
+    title: Context-free grammars
+    type: 
+    slides: lectures/06-cfg.pdf
+    reading: 
+    - author: Jurafsky &amp; Martin
+      title: Chapters 12.1-12.3, 12.5, 13.1-13.3
+    - author: Stuart Shieber, Yves Schabes, and Fernando Pereira (1993)
+      title: Principles and implementation of deductive parsing
+      url: http://people.seas.harvard.edu/~shieber/Biblio/Papers/infer.pdf
+      optional: true
+    - author: Shieber (1985)
+      title: Evidence against the context-freeness of natural language
+      url: https://dash.harvard.edu/bitstream/handle/1/2026618/Shieber_EvidenceAgainst.pdf?sequence=2
+      optional: true
+  - date: 2018-11-20
+    title: Complexity of algorithms and the CKY parser
+    type: 
+    slides: lectures/07-cky.pdf
+    reading: 
+    - author: Jurafsky &amp; Martin
+      title: Chapter 12.4
+    - author: Khan Academy
+      title: Asymptotic notation
+      url: https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation
+    assignment:
+    - label: A2 due;
+    - label: A3
+      link: assignments/cl-a3.pdf      
+  - date: 2018-11-23
+    title: Probabilistic CFGs
+    type: 
+    slides: lectures/08-pcfg.pdf
+    reading: 
+    - author: Jurafsky &amp; Martin
+      title: Chapter 14.1-14.5, 14.7
+  - date: 2018-11-27
+    title: Discussion of Assignment 2
+    type: discussion
+    slides: 
+    reading: 
+  - date: 2018-11-30
+    title: Training PCFGs
+    type: 
+    slides: lectures/09-pcfg-training.pdf
+    reading: 
+    - author: Jurafsky &amp; Martin
+      title: Chapter 14.3
+    - author: Manning &amp; Schütze
+      title: Chapter 11.3-11.4
+    - author: Michael Collins
+      title: Notes on the inside-outside algorithm
+      url: http://www.cs.columbia.edu/~mcollins/io.pdf
+    - author: Glenn Carroll &amp; Eugene Charniak (1992)
+      title: Two experiments on learning probabilistic dependency grammars from corpora
+      url: http://www.aaai.org/Papers/Workshops/1992/WS-92-01/WS92-01-001.pdf
+      optional: true
+    - author: Fernando Pereira &amp; Yves Schabes (1992)
+      title: Inside-outside reestimation from partially bracketed corpora
+      url: http://www.aclweb.org/anthology/P/P92/P92-1017.pdf
+      optional: true      
+  - date: 2018-12-04
+    title:  More accurate PCFG parsing
+    type: 
+    slides: lectures/10-pcfg-accuracy.pdf
+    reading: 
+    - author: Mark Johnson (1998)
+      title: PCFG Models of Linguistic Tree Representations
+      url: http://www.aclweb.org/anthology/J/J98/J98-4004.pdf
+      note: (esp. on parent annotations)
+    - author: Michael Collins
+      title: Lexicalized PCFGs
+      url: http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf
+    - author: Dan Klein &amp; Chris Manning (2003)
+      title: Accurate unlexicalized parsing
+      url: http://www.aclweb.org/anthology/P/P03/P03-1054.pdf
+    - author: Michael Collins (1997)
+      title: Three Generative, Lexicalized Models for Statistical Parsing
+      url: http://aclweb.org/anthology/P/P97/P97-1003.pdf
+      optional: true
+    - author: David Magerman (1995)
+      title: Description of head percolation tables
+      url: http://www.cs.columbia.edu/~mcollins/papers/heads
+      optional: true
+    - author: Slav Petrov, Leon Barrett, Romain Thibaux, and Dan Klein (2006)
+      title: Learning accurate, compact, and interpretable tree annotation
+      url: http://www.petrovi.de/data/acl06.pdf
+      optional: true
+    - author: William Morgan
+      title: Statistical Hypothesis Tests for NLP
+      url: http://cs.stanford.edu/people/wmorgan/sigtest.pdf
+      note: (explains approximate randomization)
+    - author: Berg-Kirkpatrick et al. (2012)
+      title: An empirical investigation of statistical significance for NLP
+      url: http://www.aclweb.org/anthology/D/D12/D12-1091.pdf
+      note: (explains bootstrap testing)
+    assignment:
+    - label: A3 due;
+    - label: A4
+      link: assignments/cl-a4.pdf      
+  - date: 2018-12-07
+    title: Advanced PCFG parsing algorithms
+    type: 
+    slides: lectures/11-pcfg-parsing.pdf
+    reading: 
+    - author: Joshua Goodman (1999)
+      title: Semiring parsing
+      url: http://www.aclweb.org/anthology/J99-4004.pdf
+      note: (not Section 4, 6; ignore Earley parser if you like)
+    - author: Charniak et al. (2006)
+      title: Multilevel coarse-to-fine PCFG parsing
+      url: http://cs.brown.edu/research/pubs/pdfs/2006/Charniak-2006-MCP.pdf
+    - author: Dan Klein &amp; Chris Manning (2003)
+      title: A* Parsing - Fast exact Viterbi parse selection
+      url: http://www.aclweb.org/anthology/N03-1016.pdf
+    - author: Stuart Shieber, Yves Schabes, and Fernando Pereira (1993)
+      title: Principles and implementation of deductive parsing
+      url: http://people.seas.harvard.edu/~shieber/Biblio/Papers/infer.pdf
+      optional: true
+    - author: Eugene Charniak, Sharon Goldwater, and Mark Johnson (1998)
+      title: Edge-based best-first chart parsing
+      url: http://web.science.mq.edu.au/~mjohnson/papers/wvlc98.pdf
+      optional: true
+    - author: Liang Huang and David Chiang (2005)
+      title: Better k-best parsing
+      url: http://www.aclweb.org/anthology/W05-1506.pdf
+      optional: true
+    - author: Michael Collins and Terry Koo (2005)
+      title: Discriminative reranking for natural language parsing
+      url: http://www.mitpressjournals.org/doi/pdf/10.1162/0891201053630273
+      optional: true
+    - author: Eugene Charniak and Mark Johnson (2005)
+      title: Coarse-to-fine n-best parsing and MaxEnt discriminative reranking
+      url: http://www.aclweb.org/anthology/P05-1022.pdf
+      optional: true
+
+  - date: 2018-12-11
+    title: Discussion of Assignment 3
+    type: discussion
+    slides: 
+    reading:
+      
+  - date: 2018-12-14
+    title: Dependency parsing
+    type: 
+    slides: lectures/12-dependency-parsing.pdf
+    reading:
+    - author: Ryan McDonald, Fernando Pereira, Kiril Ribarov, Jan Hajic (2005)
+      title: Non-projective Dependency Parsing using Spanning Tree Algorithms
+      url: http://www.aclweb.org/anthology/H05-1066
+    - author: Joakim Nivre (2008)
+      title: Algorithms for Deterministic Incremental Dependency Parsing
+      url: http://www.aclweb.org/anthology/J08-4003
+    - author: Joakim Nivre, Ryan McDonald (2007)
+      title: Characterizing the Errors of Data-Driven Dependency Parsing Models
+      url: http://www.aclweb.org/anthology/D07-1013
+      optional: true
+    - author: Jason Eisner (1996)
+      title: Three New Probabilistic Models for Dependency Parsing -- An Exploration
+      url: http://arxiv.org/pdf/cmp-lg/9706003.pdf
+      optional: true
+    - author: Eliyahu Kiperwasser and Yoav Goldberg (2016)
+      title: Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations
+      url: https://arxiv.org/pdf/1603.04351.pdf
+      optional: true
+    - author: Google
+      title: SyntaxNet
+      url: https://github.com/tensorflow/models/tree/master/research/syntaxnet
+      optional: true
+      
+  - date: 2018-12-18
+    title: Statistical machine translation - Alignments
+    type: 
+    slides: lectures/13-mt1.pdf
+    reading: 
+    - author: J &amp; M
+      title: Chapter 25.1-25.6
+    - author: Lopez, Post, Callison-Burch
+      title: JHU 600.468 Machine Translation - Homework 1
+      url: http://mt-class.org/jhu/hw1.html
+    - author: Adam Lopez
+      title: Word Alignment and the Expectation-Maximization Algorithm
+      url: https://drive.google.com/file/d/0B7cpo43vOGF1WXpmNVowcVU1UXc/view
+    - author: Michael Collins
+      title: IBM Models 1 and 2
+      optional: true
+      url: http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/ibm12.pdf
+    - author: Dyer et al.
+      title: fast_align
+      url: https://github.com/clab/fast_align
+      optional: true
+    - author: Liang et al.
+      title: Berkeley aligner
+      url: https://code.google.com/archive/p/berkeleyaligner/
+      optional: true
+    - author: Gao
+      title: MGIZA
+      url: https://github.com/moses-smt/mgiza/tree/master/mgizapp
+      optional: true
+    assignment:
+      - label: A4 due;
+      - label: A5
+        link: assignments/cl-a5.pdf
+
+  - date: 2018-12-21
+    title: Statistical machine translation - Translation
+    type: 
+    slides: lectures/14-mt2.pdf
+    reading:
+    - author: J &amp; M
+      title: rest of Chapter 25
+    - author: David Chiang (2007)
+      title: Hierarchical phrase-based translation
+      url: http://www.aclweb.org/anthology/J07-2003.pdf
+
+  - date: 2018-12-25
+    title: (Christmas break)
+    type: noclass
+    slides: 
+    reading:
+      
+  - date: 2018-12-28
+    title: (Christmas break)
+    type: noclass
+    slides: 
+    reading:
+      
+  - date: 2019-01-01
+    title: (Christmas break)
+    type: noclass
+    slides: 
+    reading:
+      
+  - date: 2019-01-04
+    title: (Christmas break)
+    type: noclass
+    slides: 
+    reading:
+      
+  - date: 2019-01-08
+    title: Discussion of Assignment 4
+    type: discussion
+    slides: 
+    reading:
+      
+  - date: 2019-01-11
+    title: More expressive grammar formalisms
+    type: 
+    slides: lectures/15-tag-ccg.pdf
+    reading:
+    - author: Joshi & Schabes (1997)
+      title: Tree-adjoining grammars
+      url: https://www.cis.upenn.edu/~joshi/joshi-schabes-tag-97.pdf
+    - author: Steedman & Baldridge (2011)
+      title: Combinatory categorial grammar
+      url: http://homepages.inf.ed.ac.uk/steedman/papers/ccg/SteedmanBaldridgeNTSyntax.pdf
+    - author: Shieber (1985)
+      title: Evidence against the context-freeness of natural language
+      url: https://dash.harvard.edu/bitstream/handle/1/2026618/Shieber_EvidenceAgainst.pdf?sequence=2
+      optional: true
+    - author: Vijay-Shanker and Weir (1994)
+      title: The equivalence of four extensions of context-free grammar
+      url: http://sro.sussex.ac.uk/504/1/mst94.pdf
+      optional: true
+    - author: Kuhlmann et al. (2015)
+      title: Lexicalization and generative power in CCG
+      url: http://www.coli.uni-saarland.de/~koller/papers/ccg-lexicalization-15.pdf
+      optional: true
+    - author: Lewis et al. (2016)
+      title: LSTM CCG Parsing
+      url: http://homes.cs.washington.edu/~lsz/papers/llz-naacl16.pdf
+      optional: true
+
+  - date: 2019-01-15
+    title: Bayesian methods - LDA
+    type: 
+    slides: lectures/16-lda.pdf
+    reading: 
+    - author: David Blei (2012)
+      title: Probabilistic topic models
+      url: http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf
+    - author: Thomas Griffiths &amp; Mark Steyvers (2004)
+      title: Finding scientific topics
+      url: http://psiexp.ss.uci.edu/research/papers/sciencetopics.pdf
+    - author: Mark Steyvers &amp; Thomas Griffiths (2007)
+      title: Probabilistic topic models
+      url: http://psiexp.ss.uci.edu/research/papers/SteyversGriffithsLSABookFormatted.pdf
+      note: (Sections 1-4)
+    - author: William M. Darling (2011)
+      title: A theoretical and practical implementation tutorial on topic modeling and Gibbs sampling
+      url: http://u.cs.biu.ac.il/~89-680/darling-lda.pdf
+      optional: true
+    - author: Bob Carpenter (2010)
+      title: Integrating out multinomial parameters in LDA and Naive Bayes for Collapsed Gibbs Sampling
+      url: http://lingpipe.files.wordpress.com/2010/07/lda3.pdf
+      optional: true
+    - author: Allison Chaney
+      title: Visualizing topic models on Wikipedia
+      url: http://www.princeton.edu/~achaney/tmve/wiki100k/browse/topic-presence.html
+      optional: true
+    assignment:
+      - label: A5 due;
+      - label: A6
+        link: assignments/cl-a5.pdf
+
+  - date: 2019-01-18
+    title: Bayesian methods - Grammar induction
+    type: 
+    slides: lectures/17-crp.pdf
+    reading:
+    - author: Kevin Knight (2009)
+      title: Bayesian Inference with Tears
+      url: http://www.isi.edu/natural-language/people/bayes-with-tears.pdf
+    - author: Trevor Cohn, Phil Blunsom, and Sharon Goldwater (2010)
+      title: Inducing tree-substitution grammars
+      url: http://eprints.pascal-network.org/archive/00008105/01/cohn10b.pdf
+      note: (up to Section 4.1; have a quick look at Sections 5-6)
+    - author: Hiroyuki Shindo, Yusuke Miyao, Akinori Fujino, and Masaaki Nagata (2012)
+      title: Bayesian symbol-refined tree substitution grammars for syntactic parsing
+      url: http://www.aclweb.org/anthology/P12-1046
+      optional: true      
+      
+  - date: 2019-01-22
+    title: Discussion of Assignment 5
+    type: discussion
+    slides: 
+    reading:
+      
+  - date: 2019-01-25
+    title: Semantic parsing
+    type: 
+    slides: lectures/18-semantic-parsing.pdf
+    reading: 
+    - author: Luke Zettlemoyer and Michael Collins (2005)
+      title: Learning to Map Sentences to Logical Form. Structured Classification with Probabilistic Categorial Grammars
+      url: http://www.cs.columbia.edu/~mcollins/papers/uai05.pdf
+    - author: Yuk Wah Wong and Raymond J. Mooney (2006)
+      title: Learning for Semantic Parsing with Statistical Machine Translation
+      url: http://www.cs.utexas.edu/~ml/papers/wasp-naacl-06.pdf
+    - author: Flanigan et al. (2014)
+      title: A Discriminative Graph-Based Parser for the Abstract Meaning Representation
+      url: http://www.cs.cmu.edu/~jmflanig/flanigan+etal.acl2014.pdf
+      optional: true
+    - author: Groschwitz et al. (2018)
+      title: AMR Dependency Parsing with a Typed Semantic Algebra
+      url: https://arxiv.org/pdf/1805.11465
+      optional: true
+
+  - date: 2019-01-29
+    title: (AK away)
+    type: noclass
+    slides: 
+    reading: 
+    assignment:
+      - label: A6 due
+
+  - date: 2019-02-01
+    title: Lexical semantics
+    type: 
+    slides: lectures/19-lex-semantics.pdf
+    reading:
+    - author: Jurafsky &amp; Martin
+      title: Chapters 19.1-19.3, 20.6-20.8
+    - author: Mikolov et al. (2013)
+      title: Efficient estimation of word representations in vector space
+      url: https://arxiv.org/pdf/1301.3781.pdf
+      optional: true
+    - author: Jeff Mitchell &amp; Mirella Lapata (2008)
+      title: Vector-based models of semantic composition
+      url: http://aclweb.org/anthology-new/P/P08/P08-1028.pdf
+      optional: true
+    - author: Marco Baroni &amp; Roberto Zamparelli (2010)
+      title: Nouns are vectors, adjectives are matrices
+      url: http://clic.cimec.unitn.it/marco/publications/bz-adj-com-emnlp10.pdf
+      optional: true
+    - author: Yehoshua Bar-Hillel (1960)
+      title: A demonstration of the nonfeasibility of fully automatic high quality translation
+      url: http://www.mt-archive.info/Bar-Hillel-1960-App3.pdf
+      optional: true
+    - author: Fellbaum et al.
+      title: Wordnet website
+      url: http://wordnetweb.princeton.edu/perl/webwn
+      optional: true
+    - author: Peters et al. (2018)
+      title: Deep contextualized word representations
+      url: https://arxiv.org/abs/1802.05365
+      optional: true
+      
+  - date: 2019-02-05
+    title: Discussion of Assignment 6
+    type: discussion
+    slides: 
+    reading: 
+
+  - date: 2019-02-08
+    title: Discussion of final projects
+    type: discussion
+    slides: 
+    reading: 
