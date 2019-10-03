@@ -3,8 +3,8 @@ navbar:
     entries:
       - title: Index
         url: index.html
-#      - title: Schedule
-#        url: schedule.html
+      - title: Schedule
+        url: schedule.html
   - section: Resources
     entries:
       - title: Literature

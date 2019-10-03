@@ -8,7 +8,7 @@ title: Index
 
 Winter Semester 2019/20<br/>
 [Prof. Dr. Alexander Koller](http://www.coli.uni-saarland.de/~koller/)<br/>
-Tutor: TBA<br/>
+Tutor: Alexandra Mayn<br/>
 Tue 10-12, Fri 12-14; Seminarraum C7.2<br/>
 
 Core Course, Area CL<br/>
@@ -16,7 +16,7 @@ Required course for MSc with specializations CL and LT
 
 ---
 
-**First class: TBA**
+**First class: Tuesday, October 22**
 
 ---
 
@@ -51,7 +51,7 @@ about the current assignment or anything else pertaining to the
 course.
 
 We urge you to use the
-[Piazza Forum](http://piazza.com/uni-saarland.de/winter2018/cl) for this
+[Piazza Forum](http://piazza.com/uni-saarland.de/fall2019/cl) for this
 course to discuss any content or organizational questions that arise
 between classes.  Piazza allows you to ask questions, which can then
 be answered collaboratively by both the instructors and the other
