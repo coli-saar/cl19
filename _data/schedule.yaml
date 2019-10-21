@@ -12,13 +12,19 @@ lectures:
   - date: 2019-10-22
     title: Introduction
     type: 
-    slides: 
+    slides: lectures/01-introduction.pdf
     reading: 
   - date: 2019-10-25
-    title: 
+    title: Crash course in Python and NLTK
     type: 
     slides: 
     reading: 
+    - author: NLTK
+      title: Install Python 3 and NLTK 3 and play around with it
+      url: http://www.nltk.org/
+    assignment:
+    - label: A1
+
   - date: 2019-10-29
     title: 
     type: 
@@ -33,7 +39,10 @@ lectures:
     title: 
     type: 
     slides: 
-    reading: 
+    reading:
+    assignment:
+    - label: A1 due
+      
   - date: 2019-11-08
     title: 
     type: 
