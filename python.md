@@ -38,9 +38,9 @@ tutorial on NLTK in the [NLTK book](http://www.nltk.org/book/).
 
 Here are the [Jupyter Notebooks](https://jupyter.org) that were presented in the "Python crash course" meeting.
 
-* [First Steps](https://nbviewer.jupyter.org/github/coli-saar/cl19/blob/master/notebooks/First%20steps.ipynb)
-* [NLTK: context-free grammars](https://nbviewer.jupyter.org/github/coli-saar/cl19/blob/master/notebooks/CFGs.ipynb)
-* NLTK: working with corpora <-- link is currently broken, will fix asap
-* [Working with files](https://nbviewer.jupyter.org/github/coli-saar/cl19/blob/master/notebooks/Files.ipynb)
+* [First Steps](notebooks/First%20steps.html)
+* [NLTK: context-free grammars](notebooks/CFGs.html)
+* [NLTK: working with corpora](notebooks/Corpus.html)
+* [Working with files](notebooks/Files.html)
 
 
