@@ -22,6 +22,8 @@ lectures:
     - author: NLTK
       title: Install Python 3 and NLTK 3 and play around with it
       url: http://www.nltk.org/
+    - title: Python links
+      url: python.html
     assignment:
     - label: A1
 

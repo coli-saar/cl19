@@ -4,7 +4,6 @@ title: Python
 ---
 
 # Python Resources
----------
 
 Python is an extremely popular programming language. While programming
 is a skill that takes time to learn (like any other practical skill),
@@ -33,4 +32,15 @@ We are going to use the [NLTK library](http://www.nltk.org/), which
 implements a number of algorithms and data structures for
 computational linguistics so you won't have to. You can find a
 tutorial on NLTK in the [NLTK book](http://www.nltk.org/book/).
+
+
+# Demo Notebooks
+
+Here are the [Jupyter Notebooks](https://jupyter.org) that were presented in the "Python crash course" meeting.
+
+* [First Steps](https://nbviewer.jupyter.org/github/coli-saar/cl19/blob/master/notebooks/First%20steps.ipynb)
+* [NLTK: context-free grammars](https://nbviewer.jupyter.org/github/coli-saar/cl19/blob/master/notebooks/CFGs.ipynb)
+* NLTK: working with corpora <-- link is currently broken, will fix asap
+* [Working with files](https://nbviewer.jupyter.org/github/coli-saar/cl19/blob/master/notebooks/Files.ipynb)
+
 
