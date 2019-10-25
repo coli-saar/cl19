@@ -17,21 +17,33 @@ lectures:
   - date: 2019-10-25
     title: Crash course in Python and NLTK
     type: 
-    slides: 
+    slides: python.html
     reading: 
     - author: NLTK
       title: Install Python 3 and NLTK 3 and play around with it
       url: http://www.nltk.org/
-    - title: Python links
-      url: python.html
     assignment:
     - label: A1
+      link: assignments/cl-a1.pdf
 
   - date: 2019-10-29
-    title: 
+    title: Generative statistical models; n-grams
     type: 
     slides: 
     reading: 
+    - author: Jurafsky &amp; Martin
+      title: Chapters 4.1-4.2 ("N-grams")
+    - author: Kevin Murphy
+      title: Binomial and multinomial distributions
+      url: http://www.cs.ubc.ca/~murphyk/Teaching/CS340-Fall06/reading/bernoulli.pdf
+      optional: true
+    - author: Jurafsky &amp; Martin (Smoothing)
+      title: Chapters 4.5-4.7
+      optional: true
+    - author: Manning &amp; Schütze (Smoothing)
+      title: Chapters 6.2-6.3
+      optional: true
+
   - date: 2019-11-01
     title: (holiday - All Saints)
     type: noclass
