@@ -29,7 +29,7 @@ lectures:
   - date: 2019-10-29
     title: Generative statistical models; n-grams
     type: 
-    slides: 
+    slides: lectures/03-ngrams.pdf
     reading: 
     - author: Jurafsky &amp; Martin
       title: Chapters 4.1-4.2 ("N-grams")
@@ -49,11 +49,14 @@ lectures:
     type: noclass
     slides: 
     reading: 
+
   - date: 2019-11-05
-    title: 
+    title: Hidden Markov Models
     type: 
     slides: 
     reading:
+    - author: Jurafsky &amp; Martin
+      title: Chapters 5.1-5.5 (POS tagging), 6.1-6.4 (HMMs)
     assignment:
     - label: A1 due
       
