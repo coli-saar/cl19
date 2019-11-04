@@ -13,3 +13,8 @@ navbar:
         url: python.html
   - section: Assignments
     entries:
+      - title: A1 (n-grams)
+        url: assignments/cl-a1.pdf
+      - title: A2 (HMMs)
+        url: assignments/cl-a2.pdf
+        

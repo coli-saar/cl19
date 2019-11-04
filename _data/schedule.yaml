@@ -53,18 +53,27 @@ lectures:
   - date: 2019-11-05
     title: Hidden Markov Models
     type: 
-    slides: 
+    slides: lectures/04-hmms.pdf
     reading:
     - author: Jurafsky &amp; Martin
       title: Chapters 5.1-5.5 (POS tagging), 6.1-6.4 (HMMs)
     assignment:
-    - label: A1 due
+    - label: A1 due;
+    - label: A2
+      link: assignments/cl-a2.pdf
       
   - date: 2019-11-08
-    title: 
+    title: Training HMMs
     type: 
     slides: 
     reading: 
+    - author: Jurafsky &amp; Martin
+      title: Chapters 5.7-5.8 (POS tagging evaluation), 6.5 (Forward-Backward)
+    - author: Jason Eisner
+      title: HMM-in-a-spreadsheet
+      url: http://www.cs.jhu.edu/~jason/465/PowerPoint/lect24-hmm.xls
+      optional: true
+
   - date: 2019-11-12
     title: 
     type: 
