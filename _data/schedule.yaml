@@ -65,7 +65,7 @@ lectures:
   - date: 2019-11-08
     title: Training HMMs
     type: 
-    slides: 
+    slides: lectures/05-hmm-training.pdf
     reading: 
     - author: Jurafsky &amp; Martin
       title: Chapters 5.7-5.8 (POS tagging evaluation), 6.5 (Forward-Backward)
@@ -75,15 +75,27 @@ lectures:
       optional: true
 
   - date: 2019-11-12
-    title: 
-    type: 
+    title: Discussion of Assignment 1
+    type: discussion
     slides: 
-    reading: 
+    reading:
+      
   - date: 2019-11-15
-    title: 
+    title: Context-free grammars
     type: 
     slides: 
-    reading: 
+    reading:
+    - author: Jurafsky &amp; Martin
+      title: Chapters 12.1-12.3, 12.5, 13.1-13.3
+    - author: Stuart Shieber, Yves Schabes, and Fernando Pereira (1993)
+      title: Principles and implementation of deductive parsing
+      url: http://people.seas.harvard.edu/~shieber/Biblio/Papers/infer.pdf
+      optional: true
+    - author: Shieber (1985)
+      title: Evidence against the context-freeness of natural language
+      url: https://dash.harvard.edu/bitstream/handle/1/2026618/Shieber_EvidenceAgainst.pdf?sequence=2
+      optional: true
+      
   - date: 2019-11-19
     title: 
     type: 
