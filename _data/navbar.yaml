@@ -17,4 +17,6 @@ navbar:
         url: assignments/cl-a1.pdf
       - title: A2 (HMMs)
         url: assignments/cl-a2.pdf
+      - title: A3 (CKY)
+        url: assignments/cl-a3.pdf
         

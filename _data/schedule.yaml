@@ -99,7 +99,7 @@ lectures:
   - date: 2019-11-19
     title: Complexity of algorithms and the CKY parser
     type: 
-    slides: 
+    slides: lectures/07-cky.pdf
     reading: 
     - author: Jurafsky &amp; Martin
       title: Chapter 12.4
@@ -107,18 +107,24 @@ lectures:
       title: Asymptotic notation
       url: https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation
     assignment:
-    - label: A2 due
+    - label: A2 due;
+    - label: A3
+      link: assignments/cl-a3.pdf
       
   - date: 2019-11-22
-    title: 
+    title: Probabilistic CFGs
     type: 
     slides: 
     reading: 
+    - author: Jurafsky &amp; Martin
+      title: Chapter 14.1-14.5, 14.7
+      
   - date: 2019-11-26
-    title: 
-    type: 
+    title: Discussion of Assignment 2
+    type: discussion
     slides: 
-    reading: 
+    reading:
+      
   - date: 2019-11-29
     title: 
     type: 
