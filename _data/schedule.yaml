@@ -114,7 +114,7 @@ lectures:
   - date: 2019-11-22
     title: Probabilistic CFGs
     type: 
-    slides: 
+    slides: lectures/08-pcfg.pdf
     reading: 
     - author: Jurafsky &amp; Martin
       title: Chapter 14.1-14.5, 14.7
@@ -126,10 +126,26 @@ lectures:
     reading:
       
   - date: 2019-11-29
-    title: 
+    title: Training PCFGs
     type: 
     slides: 
     reading: 
+    - author: Jurafsky &amp; Martin
+      title: Chapter 14.3
+    - author: Manning &amp; Schütze
+      title: Chapter 11.3-11.4
+    - author: Michael Collins
+      title: Notes on the inside-outside algorithm
+      url: http://www.cs.columbia.edu/~mcollins/io.pdf
+    - author: Glenn Carroll &amp; Eugene Charniak (1992)
+      title: Two experiments on learning probabilistic dependency grammars from corpora
+      url: http://www.aaai.org/Papers/Workshops/1992/WS-92-01/WS92-01-001.pdf
+      optional: true
+    - author: Fernando Pereira &amp; Yves Schabes (1992)
+      title: Inside-outside reestimation from partially bracketed corpora
+      url: http://www.aclweb.org/anthology/P/P92/P92-1017.pdf
+      optional: true      
+
   - date: 2019-12-03
     title: 
     type: 
