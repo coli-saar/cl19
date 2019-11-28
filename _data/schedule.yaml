@@ -128,7 +128,7 @@ lectures:
   - date: 2019-11-29
     title: Training PCFGs
     type: 
-    slides: 
+    slides: lectures/09-pcfg-training.pdf
     reading: 
     - author: Jurafsky &amp; Martin
       title: Chapter 14.3
@@ -147,15 +147,41 @@ lectures:
       optional: true      
 
   - date: 2019-12-03
-    title: 
+    title: More accurate PCFG parsing
     type: 
     slides: 
     reading: 
+    - author: Mark Johnson (1998)
+      title: PCFG Models of Linguistic Tree Representations
+      url: http://www.aclweb.org/anthology/J/J98/J98-4004.pdf
+      note: (esp. on parent annotations)
+    - author: Michael Collins
+      title: Lexicalized PCFGs
+      url: http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf
+    - author: Dan Klein &amp; Chris Manning (2003)
+      title: Accurate unlexicalized parsing
+      url: http://www.aclweb.org/anthology/P/P03/P03-1054.pdf
+    - author: Michael Collins (1997)
+      title: Three Generative, Lexicalized Models for Statistical Parsing
+      url: http://aclweb.org/anthology/P/P97/P97-1003.pdf
+      optional: true
+    - author: David Magerman (1995)
+      title: Description of head percolation tables
+      url: http://www.cs.columbia.edu/~mcollins/papers/heads
+      optional: true
+    - author: Slav Petrov, Leon Barrett, Romain Thibaux, and Dan Klein (2006)
+      title: Learning accurate, compact, and interpretable tree annotation
+      url: http://www.petrovi.de/data/acl06.pdf
+      optional: true
+      
   - date: 2019-12-06
     title: 
     type: 
     slides: 
-    reading: 
+    reading:
+    assignment:
+    - label: A3 due
+      
   - date: 2019-12-10
     title: 
     type: 
