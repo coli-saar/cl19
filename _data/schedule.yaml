@@ -147,6 +147,11 @@ lectures:
       optional: true      
 
   - date: 2019-12-03
+    title: (Kathrin Passig talk)
+    slides: https://www.uni-saarland.de/universitaet/aktuell/artikel/nr/21309/
+    type: noclass
+      
+  - date: 2019-12-06
     title: More accurate PCFG parsing
     type: 
     slides: 
@@ -173,12 +178,6 @@ lectures:
       title: Learning accurate, compact, and interpretable tree annotation
       url: http://www.petrovi.de/data/acl06.pdf
       optional: true
-      
-  - date: 2019-12-06
-    title: 
-    type: 
-    slides: 
-    reading:
     assignment:
     - label: A3 due
       
