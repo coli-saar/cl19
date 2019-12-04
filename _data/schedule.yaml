@@ -154,7 +154,7 @@ lectures:
   - date: 2019-12-06
     title: More accurate PCFG parsing
     type: 
-    slides: 
+    slides: lectures/10-accurate-pcfg-models.pdf
     reading: 
     - author: Mark Johnson (1998)
       title: PCFG Models of Linguistic Tree Representations
@@ -178,14 +178,53 @@ lectures:
       title: Learning accurate, compact, and interpretable tree annotation
       url: http://www.petrovi.de/data/acl06.pdf
       optional: true
+    - author: William Morgan
+      title: Statistical Hypothesis Tests for NLP
+      url: http://cs.stanford.edu/people/wmorgan/sigtest.pdf
+      note: (explains approximate randomization)
+    - author: Berg-Kirkpatrick et al. (2012)
+      title: An empirical investigation of statistical significance for NLP
+      url: http://www.aclweb.org/anthology/D/D12/D12-1091.pdf
+      note: (explains bootstrap testing)
     assignment:
     - label: A3 due
       
   - date: 2019-12-10
-    title: 
+    title: Advanced PCFG parsing algorithms
     type: 
     slides: 
-    reading: 
+    reading:
+    - author: Joshua Goodman (1999)
+      title: Semiring parsing
+      url: http://www.aclweb.org/anthology/J99-4004.pdf
+      note: (not Section 4, 6; ignore Earley parser if you like)
+    - author: Charniak et al. (2006)
+      title: Multilevel coarse-to-fine PCFG parsing
+      url: http://cs.brown.edu/research/pubs/pdfs/2006/Charniak-2006-MCP.pdf
+    - author: Dan Klein &amp; Chris Manning (2003)
+      title: A* Parsing - Fast exact Viterbi parse selection
+      url: http://www.aclweb.org/anthology/N03-1016.pdf
+    - author: Stuart Shieber, Yves Schabes, and Fernando Pereira (1993)
+      title: Principles and implementation of deductive parsing
+      url: http://people.seas.harvard.edu/~shieber/Biblio/Papers/infer.pdf
+      optional: true
+    - author: Eugene Charniak, Sharon Goldwater, and Mark Johnson (1998)
+      title: Edge-based best-first chart parsing
+      url: http://web.science.mq.edu.au/~mjohnson/papers/wvlc98.pdf
+      optional: true
+    - author: Liang Huang and David Chiang (2005)
+      title: Better k-best parsing
+      url: http://www.aclweb.org/anthology/W05-1506.pdf
+      optional: true
+    - author: Michael Collins and Terry Koo (2005)
+      title: Discriminative reranking for natural language parsing
+      url: http://www.mitpressjournals.org/doi/pdf/10.1162/0891201053630273
+      optional: true
+    - author: Eugene Charniak and Mark Johnson (2005)
+      title: Coarse-to-fine n-best parsing and MaxEnt discriminative reranking
+      url: http://www.aclweb.org/anthology/P05-1022.pdf
+      optional: true
+      
   - date: 2019-12-13
     title: 
     type: 
