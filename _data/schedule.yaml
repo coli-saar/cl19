@@ -187,7 +187,9 @@ lectures:
       url: http://www.aclweb.org/anthology/D/D12/D12-1091.pdf
       note: (explains bootstrap testing)
     assignment:
-    - label: A3 due
+    - label: A3 due;
+    - label: A4
+      link: assignments/cl-a4.pdf
       
   - date: 2019-12-10
     title: Advanced PCFG parsing algorithms

@@ -19,4 +19,6 @@ navbar:
         url: assignments/cl-a2.pdf
       - title: A3 (CKY)
         url: assignments/cl-a3.pdf
+      - title: A4 (Statistical parsing)
+        url: assignments/cl-a4.pdf
         
