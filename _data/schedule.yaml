@@ -194,7 +194,7 @@ lectures:
   - date: 2019-12-10
     title: Advanced PCFG parsing algorithms
     type: 
-    slides: 
+    slides: lectures/11-advanced-pcfg-parsing.pdf
     reading:
     - author: Joshua Goodman (1999)
       title: Semiring parsing
@@ -228,20 +228,45 @@ lectures:
       optional: true
       
   - date: 2019-12-13
-    title: 
-    type: 
+    title: Discussion of Assignment 3
+    type: discussion
     slides: 
-    reading: 
+    reading:
+
   - date: 2019-12-17
-    title: 
+    title: Dependency parsing
     type: 
     slides: 
-    reading: 
+    reading:
+    - author: Ryan McDonald, Fernando Pereira, Kiril Ribarov, Jan Hajic (2005)
+      title: Non-projective Dependency Parsing using Spanning Tree Algorithms
+      url: http://www.aclweb.org/anthology/H05-1066
+    - author: Joakim Nivre (2008)
+      title: Algorithms for Deterministic Incremental Dependency Parsing
+      url: http://www.aclweb.org/anthology/J08-4003
+    - author: Joakim Nivre, Ryan McDonald (2007)
+      title: Characterizing the Errors of Data-Driven Dependency Parsing Models
+      url: http://www.aclweb.org/anthology/D07-1013
+      optional: true
+    - author: Jason Eisner (1996)
+      title: Three New Probabilistic Models for Dependency Parsing -- An Exploration
+      url: http://arxiv.org/pdf/cmp-lg/9706003.pdf
+      optional: true
+    - author: Eliyahu Kiperwasser and Yoav Goldberg (2016)
+      title: Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations
+      url: https://arxiv.org/pdf/1603.04351.pdf
+      optional: true
+    - author: Google
+      title: SyntaxNet
+      url: https://github.com/tensorflow/models/tree/master/research/syntaxnet
+      optional: true
+      
   - date: 2019-12-20
     title: 
     type: 
     slides: 
-    reading: 
+    reading:
+      
   - date: 2019-12-24
     title: 
     type: 
