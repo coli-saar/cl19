@@ -236,7 +236,7 @@ lectures:
   - date: 2019-12-17
     title: Dependency parsing
     type: 
-    slides: 
+    slides: lectures/12-dependency-parsing.pdf
     reading:
     - author: Ryan McDonald, Fernando Pereira, Kiril Ribarov, Jan Hajic (2005)
       title: Non-projective Dependency Parsing using Spanning Tree Algorithms
@@ -262,14 +262,41 @@ lectures:
       optional: true
       
   - date: 2019-12-20
-    title: 
+    title: Statistical machine translation - Alignments
     type: 
     slides: 
     reading:
+    - author: J &amp; M
+      title: Chapter 25.1-25.6
+    - author: Lopez, Post, Callison-Burch
+      title: JHU 600.468 Machine Translation - Homework 1
+      url: http://mt-class.org/jhu/hw1.html
+    - author: Adam Lopez
+      title: Word Alignment and the Expectation-Maximization Algorithm
+      url: https://drive.google.com/file/d/0B7cpo43vOGF1WXpmNVowcVU1UXc/view
+    - author: Michael Collins
+      title: IBM Models 1 and 2
+      optional: true
+      url: http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/ibm12.pdf
+    - author: Dyer et al.
+      title: fast_align
+      url: https://github.com/clab/fast_align
+      optional: true
+    - author: Liang et al.
+      title: Berkeley aligner
+      url: https://code.google.com/archive/p/berkeleyaligner/
+      optional: true
+    - author: Gao
+      title: MGIZA
+      url: https://github.com/moses-smt/mgiza/tree/master/mgizapp
+      optional: true
+    assignment:
+      - label: A4 due;
+      - label: A5
       
   - date: 2019-12-24
-    title: 
-    type: 
+    title: (Christmas break)
+    type: noclass
     slides: 
     reading: 
   - date: 2019-12-27
@@ -288,8 +315,8 @@ lectures:
     slides: 
     reading: 
   - date: 2020-01-07
-    title: (Christmas break)
-    type: noclass
+    title: 
+    type: 
     slides: 
     reading: 
   - date: 2020-01-10
