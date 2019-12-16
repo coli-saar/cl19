@@ -21,4 +21,8 @@ navbar:
         url: assignments/cl-a3.pdf
       - title: A4 (Statistical parsing)
         url: assignments/cl-a4.pdf
+      - title: A5 (Word alignments)
+        url: assignments/cl-a5.pdf
+      - title: A6 (LDA)
+
         

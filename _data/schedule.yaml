@@ -293,6 +293,7 @@ lectures:
     assignment:
       - label: A4 due;
       - label: A5
+        link: assignments/cl-a5.pdf
       
   - date: 2019-12-24
     title: (Christmas break)
@@ -333,7 +334,11 @@ lectures:
     title: 
     type: 
     slides: 
-    reading: 
+    reading:
+    assignment:
+      - label: A5 due;
+      - label: A6
+      
   - date: 2020-01-21
     title: 
     type: 
@@ -354,6 +359,9 @@ lectures:
     type: 
     slides: 
     reading: 
+    assignment:
+      - label: A6 due
+
   - date: 2020-02-04
     title: 
     type: 
