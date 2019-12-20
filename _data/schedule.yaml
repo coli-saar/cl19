@@ -264,7 +264,7 @@ lectures:
   - date: 2019-12-20
     title: Statistical machine translation - Alignments
     type: 
-    slides: 
+    slides: lectures/13-mt1.pdf
     reading:
     - author: J &amp; M
       title: Chapter 25.1-25.6
@@ -314,12 +314,19 @@ lectures:
     title: (Christmas break)
     type: noclass
     slides: 
-    reading: 
+    reading:
+      
   - date: 2020-01-07
-    title: 
+    title: Statistical machine translation - Translation
     type: 
     slides: 
-    reading: 
+    reading:
+    - author: J &amp; M
+      title: rest of Chapter 25
+    - author: David Chiang (2007)
+      title: Hierarchical phrase-based translation
+      url: http://www.aclweb.org/anthology/J07-2003.pdf
+      
   - date: 2020-01-10
     title: 
     type: 
