@@ -319,7 +319,7 @@ lectures:
   - date: 2020-01-07
     title: Statistical machine translation - Translation
     type: 
-    slides: 
+    slides: lectures/14-mt2.pdf
     reading:
     - author: J &amp; M
       title: rest of Chapter 25
@@ -328,15 +328,39 @@ lectures:
       url: http://www.aclweb.org/anthology/J07-2003.pdf
       
   - date: 2020-01-10
-    title: 
-    type: 
+    title: Discussion of Assignment 4
+    type: discussion
     slides: 
-    reading: 
+    reading:
+      
   - date: 2020-01-14
-    title: 
+    title: More expressive grammar formalisms
     type: 
     slides: 
-    reading: 
+    reading:
+    - author: Joshi & Schabes (1997)
+      title: Tree-adjoining grammars
+      url: https://www.cis.upenn.edu/~joshi/joshi-schabes-tag-97.pdf
+    - author: Steedman & Baldridge (2011)
+      title: Combinatory categorial grammar
+      url: http://homepages.inf.ed.ac.uk/steedman/papers/ccg/SteedmanBaldridgeNTSyntax.pdf
+    - author: Shieber (1985)
+      title: Evidence against the context-freeness of natural language
+      url: https://dash.harvard.edu/bitstream/handle/1/2026618/Shieber_EvidenceAgainst.pdf?sequence=2
+      optional: true
+    - author: Vijay-Shanker and Weir (1994)
+      title: The equivalence of four extensions of context-free grammar
+      url: http://sro.sussex.ac.uk/504/1/mst94.pdf
+      optional: true
+    - author: Kuhlmann et al. (2015)
+      title: Lexicalization and generative power in CCG
+      url: http://www.coli.uni-saarland.de/~koller/papers/ccg-lexicalization-15.pdf
+      optional: true
+    - author: Lewis et al. (2016)
+      title: LSTM CCG Parsing
+      url: http://homes.cs.washington.edu/~lsz/papers/llz-naacl16.pdf
+      optional: true
+      
   - date: 2020-01-17
     title: 
     type: 
