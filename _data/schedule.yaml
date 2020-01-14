@@ -336,7 +336,7 @@ lectures:
   - date: 2020-01-14
     title: More expressive grammar formalisms
     type: 
-    slides: 
+    slides: lectures/15-tag-ccg.pdf
     reading:
     - author: Joshi & Schabes (1997)
       title: Tree-adjoining grammars
@@ -362,10 +362,32 @@ lectures:
       optional: true
       
   - date: 2020-01-17
-    title: 
+    title: Bayesian methods - LDA
     type: 
     slides: 
     reading:
+    - author: David Blei (2011)
+      title: Introduction to probabilistic topic models
+      url: materials/blei11introduction.pdf
+    - author: Thomas Griffiths &amp; Mark Steyvers (2004)
+      title: Finding scientific topics
+      url: https://www.pnas.org/content/101/suppl_1/5228.short
+    - author: Mark Steyvers &amp; Thomas Griffiths (2007)
+      title: Probabilistic topic models
+      url: https://www.academia.edu/download/81715/sbmq8q4bog4w4yg3ip1.pdf
+      note: (Sections 1-4)
+    - author: William M. Darling (2011)
+      title: A theoretical and practical implementation tutorial on topic modeling and Gibbs sampling
+      url: materials/darling-lda.pdf
+      optional: true
+    - author: Bob Carpenter (2010)
+      title: Integrating out multinomial parameters in LDA and Naive Bayes for Collapsed Gibbs Sampling
+      url: http://lingpipe.files.wordpress.com/2010/07/lda3.pdf
+      optional: true
+    - author: Allison Chaney
+      title: Visualizing topic models on Wikipedia
+      url: http://www.princeton.edu/~achaney/tmve/wiki100k/browse/topic-presence.html
+      optional: true
     assignment:
       - label: A5 due;
       - label: A6
