@@ -364,7 +364,7 @@ lectures:
   - date: 2020-01-17
     title: Bayesian methods - LDA
     type: 
-    slides: 
+    slides: lectures/16-lda.pdf
     reading:
     - author: David Blei (2011)
       title: Introduction to probabilistic topic models
