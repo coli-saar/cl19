@@ -391,12 +391,27 @@ lectures:
     assignment:
       - label: A5 due;
       - label: A6
+        link: assignments/cl-a6.pdf
       
   - date: 2020-01-21
-    title: 
+    title: Bayesian methods - Grammar induction
     type: 
     slides: 
-    reading: 
+    reading:
+    - author: Kevin Knight (2009)
+      title: Bayesian Inference with Tears
+      url: http://www.isi.edu/natural-language/people/bayes-with-tears.pdf
+    - author: Trevor Cohn, Phil Blunsom, and Sharon Goldwater (2010)
+      title: Inducing tree-substitution grammars
+      url: http://www.jmlr.org/papers/volume11/cohn10b/cohn10b.pdf
+      note: (up to Section 4.1; have a quick look at Sections 5-6)
+    - author: Hiroyuki Shindo, Yusuke Miyao, Akinori Fujino, and Masaaki Nagata (2012)
+      title: Bayesian symbol-refined tree substitution grammars for syntactic parsing
+      url: http://www.aclweb.org/anthology/P12-1046
+      optional: true      
+
+
+    
   - date: 2020-01-24
     title: 
     type: 
