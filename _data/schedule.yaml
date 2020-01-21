@@ -396,7 +396,7 @@ lectures:
   - date: 2020-01-21
     title: Bayesian methods - Grammar induction
     type: 
-    slides: 
+    slides: lectures/17-crp.pdf
     reading:
     - author: Kevin Knight (2009)
       title: Bayesian Inference with Tears
@@ -413,17 +413,49 @@ lectures:
 
     
   - date: 2020-01-24
-    title: 
-    type: 
+    title: Discussion of Assignment 5
+    type: discussion
     slides: 
-    reading: 
+    reading:
+      
   - date: 2020-01-28
-    title: 
+    title: Lexical semantics
     type: 
     slides: 
-    reading: 
+    reading:
+    - author: Jurafsky &amp; Martin
+      title: Chapters 19.1-19.3, 20.6-20.8
+    - author: Mikolov et al. (2013)
+      title: Efficient estimation of word representations in vector space
+      url: https://arxiv.org/pdf/1301.3781.pdf
+      optional: true
+    - author: Jeff Mitchell &amp; Mirella Lapata (2008)
+      title: Vector-based models of semantic composition
+      url: http://aclweb.org/anthology-new/P/P08/P08-1028.pdf
+      optional: true
+    - author: Marco Baroni &amp; Roberto Zamparelli (2010)
+      title: Nouns are vectors, adjectives are matrices
+      url: http://clic.cimec.unitn.it/marco/publications/bz-adj-com-emnlp10.pdf
+      optional: true
+    - author: Yehoshua Bar-Hillel (1960)
+      title: A demonstration of the nonfeasibility of fully automatic high quality translation
+      url: http://www.mt-archive.info/Bar-Hillel-1960-App3.pdf
+      optional: true
+    - author: Fellbaum et al.
+      title: Wordnet website
+      url: http://wordnetweb.princeton.edu/perl/webwn
+      optional: true
+    - author: Peters et al. (2018)
+      title: Deep contextualized word representations
+      url: https://arxiv.org/abs/1802.05365
+      optional: true
+    - author: Devlin et al. (2019)
+      title: "BERT: Pre-training of deep bidirectional transformers for language understanding"
+      url: https://arxiv.org/abs/1810.04805
+      optional: true
+    
   - date: 2020-01-31
-    title: 
+    title: Semantic parsing
     type: 
     slides: 
     reading: 
@@ -431,12 +463,13 @@ lectures:
       - label: A6 due
 
   - date: 2020-02-04
-    title: 
-    type: 
+    title: Discussion of Assignment 6
+    type: discussion
     slides: 
-    reading: 
+    reading:
+      
   - date: 2020-02-07
-    title: 
-    type: 
+    title: Discussion of final projects
+    type: discussion
     slides: 
     reading: 
