@@ -419,6 +419,26 @@ lectures:
     reading:
       
   - date: 2020-01-28
+    title: Semantic parsing
+    type: 
+    slides: lectures/18-semantic-parsing.pdf
+    reading:    
+    - author: Luke Zettlemoyer and Michael Collins (2005)
+      title: Learning to Map Sentences to Logical Form. Structured Classification with Probabilistic Categorial Grammars
+      url: https://arxiv.org/pdf/1207.1420
+    - author: Yuk Wah Wong and Raymond J. Mooney (2006)
+      title: Learning for Semantic Parsing with Statistical Machine Translation
+      url: http://www.cs.utexas.edu/~ml/papers/wasp-naacl-06.pdf
+    - author: Flanigan et al. (2014)
+      title: A Discriminative Graph-Based Parser for the Abstract Meaning Representation
+      url: http://www.cs.cmu.edu/~jmflanig/flanigan+etal.acl2014.pdf
+      optional: true
+    - author: Groschwitz et al. (2018)
+      title: AMR Dependency Parsing with a Typed Semantic Algebra
+      url: https://arxiv.org/pdf/1805.11465
+      optional: true    
+    
+  - date: 2020-01-31
     title: Lexical semantics
     type: 
     slides: 
@@ -453,12 +473,6 @@ lectures:
       title: "BERT: Pre-training of deep bidirectional transformers for language understanding"
       url: https://arxiv.org/abs/1810.04805
       optional: true
-    
-  - date: 2020-01-31
-    title: Semantic parsing
-    type: 
-    slides: 
-    reading: 
     assignment:
       - label: A6 due
 
