@@ -441,7 +441,7 @@ lectures:
   - date: 2020-01-31
     title: Lexical semantics
     type: 
-    slides: 
+    slides: lectures/19-lexical-semantics.pdf
     reading:
     - author: Jurafsky &amp; Martin
       title: Chapters 19.1-19.3, 20.6-20.8
